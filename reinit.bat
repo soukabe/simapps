@@ -1,9 +1,9 @@
 @echo off
 
-start /W ipconfig /release
+ipconfig /release
 
-start /W ipconfig /renew
+ipconfig /renew
 
-start /W ipconfig /flushdns
+ipconfig /flushdns
 
 exit()
